@@ -1,0 +1,35 @@
+# Ignore all files in the 'build' directory
+build/
+
+# Ignore all data directories
+data/
+/data/
+
+# Ignore all files ending with .log
+*.log
+
+# Ignore specific files
+.DS_Store
+.env
+
+# Ignore the 'node_modules' directory
+node_modules/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore editor-specific temporary files
+*.swp
+*~
+
+# Ignore IDE-specific files (e.g., for VS Code)
+.vscode/
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore compressed archives
+*.zip
+*.tar.gz
